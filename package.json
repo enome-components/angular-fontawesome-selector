@@ -1,0 +1,16 @@
+{
+  "name": "angular-fontawesome-selector",
+  "version": "0.0.0",
+  "description": "Box with font-awesome icons that you can select",
+  "main": "index.js",
+  "dependencies": {
+    "request": "~2.26.0",
+    "yaml-js": "0.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD"
+}

@@ -1,0 +1,1 @@
+module.exports = '<div class=\'fontawesome-selector\'>\n  <input type=\'text\' placeholder=\'Search\' ng-model=\'search\'/>\n  <ul>\n    <li ng-repeat=\'icon in icons\' title=\'{{icon.name}}\' ng-class=\'css(icon)\' ng-click=\'select(icon)\'><i class=\'icon-{{icon.id}}\'></i></li>\n  </ul>\n</div>\n';

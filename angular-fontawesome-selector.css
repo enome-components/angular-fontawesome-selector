@@ -1,0 +1,52 @@
+.fontawesome-selector {
+  width: 327px;
+}
+
+.fontawesome-selector input {
+  padding: 10px;
+  width: 327px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  margin: 0;
+  border: 1px solid whitesmoke;
+}
+
+.fontawesome-selector ul {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid whitesmoke;
+  list-style: none;
+  overflow-y: scroll;
+  height: 360px;
+}
+
+.fontawesome-selector ul li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-left: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+  color: gray;
+}
+
+.fontawesome-selector ul li:last-child {
+  border-right: 1px solid whitesmoke;
+}
+
+.fontawesome-selector ul li:hover {
+  background: whitesmoke;
+  cursor: pointer;
+}
+
+.fontawesome-selector ul li.selected {
+  background: #3D3D3D;
+  color: whitesmoke;
+}
+
+.fontawesome-selector [class^="icon-"], 
+.fontawesome-selector [class*=" icon-"] {
+  font-size: 14px;
+}

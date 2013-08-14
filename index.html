@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Angular Arrangeable Array</title>
+
+    <link href='build/build.css' type='text/css' rel='stylesheet'></link>
+
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.js'></script>
+    <script src='build/build.js'></script>
+
+    <script>
+      var app = window.angular.module('my-app', [ require('angular-fontawesome-selector') ]);
+
+      app.controller('Ctrl', function ($scope) {
+
+        $scope.selected = 'desktop';
+
+        $scope.$watch('selected', function (v) {
+          console.log('Selected icon is:', v);
+        });
+
+      });
+    </script>
+
+    <style>
+      body {
+        padding: 10px;
+      }
+    </style>
+
+  </head>
+
+  <body ng-app='my-app' ng-controller='Ctrl'>
+    <fontawesome-selector selected='selected'></fontawesome-selector>
+  </body>
+
+</html>

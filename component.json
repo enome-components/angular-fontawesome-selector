@@ -1,0 +1,21 @@
+{
+  "name": "angular-fontawesome-selector",
+  "repo": "enome-components/angular-fontawesome-selector",
+  "description": "Box with font-awesome icons that you can select",
+  "version": "1.0.0",
+  "keywords": [ "angular", "font-awesome", "directive" ],
+  "dependencies": {
+    "timoxley/font-awesome": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "template.js",
+    "icons.js"
+  ],
+  "styles": [
+    "angular-fontawesome-selector.css"
+  ]
+}
